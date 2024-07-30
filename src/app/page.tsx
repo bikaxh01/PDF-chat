@@ -6,7 +6,9 @@ export default function Home() {
   return (
    <main>
     Running...
-   <Button><Link href="/dashboard">Get Started</Link></Button>
+   <Button>
+    <br></br>
+    <Link href="/dashboard">Get Started</Link></Button>
    </main>
   );
 }
