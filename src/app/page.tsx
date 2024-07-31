@@ -9,6 +9,7 @@ export default function Home() {
    <Button>
     <br></br>
     <Link href="/dashboard">Get Started</Link></Button>
+    <h1>Test CI</h1>
    </main>
   );
 }
