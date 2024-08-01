@@ -26,3 +26,6 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: bikaxh01/pdf-chat:latest  
+    
+    - name: Pulling Image
+      run : docker pull bikaxh01/pdf-chat:latest 

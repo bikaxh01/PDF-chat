@@ -9,7 +9,8 @@ export default function Home() {
    <Button>
     <br></br>
     <Link href="/dashboard">Get Started</Link></Button>
-    <h1>Test CI 2</h1>
+    <h1>Test CI 3</h1>
+    <h1>Test Vercel</h1>
    </main>
   );
 }
