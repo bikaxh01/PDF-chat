@@ -6,6 +6,12 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 
+ENV NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=$NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+ENV CLERK_SECRET_KEY=$CLERK_SECRET_KEY
+
+RUN npm run build
+
 EXPOSE 3000
 
-CMD ["npm","run","dev"]
+
+CMD ["npm","run","start"]
